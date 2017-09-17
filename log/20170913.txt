@@ -1,0 +1,2883 @@
+-----
+2017/09/13 18:42:39 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 18:42:39 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:42:39 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:42:42 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 18:42:42 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 18:55:31 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 18:55:31 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:55:31 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:55:34 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:55:34 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:55:48 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:55:48 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:56:30 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:56:30 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:56:34 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 18:56:34 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:56:34 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:56:36 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:56:36 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:56:58 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:56:58 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:57:14 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:57:14 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:57:28 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:57:28 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:57:28 
+insert into comment (nick,email,content,pubtime,art_id) values ('xiaoyu','530881987@qq.com','测试留言功能','1505300248','2')
+-----
+
+-----
+2017/09/13 18:57:29 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:57:29 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:58:23 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:58:23 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:58:41 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 18:58:41 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 18:58:46 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 18:58:46 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 18:58:47 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 18:58:47 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:58:47 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 18:58:51 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 18:58:51 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 18:59:05 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 18:59:05 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 18:59:05 
+insert into comment (nick,email,content,pubtime,art_id) values ('xiaoyu','530881987@qq.com','测试留言功能','1505300345','1')
+-----
+
+-----
+2017/09/13 18:59:06 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 18:59:06 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:03:33 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 19:03:33 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 19:03:33 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 19:03:36 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:03:36 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:03:36 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:03:41 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:03:41 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:03:41 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:03:56 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:03:56 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:03:56 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:03:56 
+insert into comment (nick,email,content,pubtime,art_id) values ('xiaoyu','1280135695@qq.com','测试留言功能2','1505300636','1')
+-----
+
+-----
+2017/09/13 19:03:57 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:03:57 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:03:57 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:04:09 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:04:09 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:04:09 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:04:11 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:04:11 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:04:11 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:04:16 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:04:16 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:04:16 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:04:20 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:04:20 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:04:20 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:04:22 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:04:22 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:04:22 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:04:30 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:04:30 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:04:30 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:04:30 
+insert into comment (nick,email,content,pubtime,art_id) values ('','','','1505300670','2')
+-----
+
+-----
+2017/09/13 19:04:31 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:04:31 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:04:31 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:04:36 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 19:04:36 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 19:04:36 
+select * from comment where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 19:08:07 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:08:07 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:08:07 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:08:25 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:08:25 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:08:25 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:08:35 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:08:35 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:08:35 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:08:42 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:08:42 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:08:42 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:09:08 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 19:09:08 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 19:09:08 
+select * from comment where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 19:09:09 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 19:09:09 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 19:09:09 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 19:09:36 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 19:09:36 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3
+-----
+
+-----
+2017/09/13 19:09:37 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 19:09:37 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 19:09:37 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 19:10:04 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:10:04 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:10:04 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:10:10 
+select * from art where art_id=2
+-----
+
+-----
+2017/09/13 19:10:10 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=2
+-----
+
+-----
+2017/09/13 19:10:10 
+select * from comment where art_id=2
+-----
+
+-----
+2017/09/13 19:10:15 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 19:10:15 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 19:10:15 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 19:42:43 
+select * from cat
+-----
+
+-----
+2017/09/13 19:43:03 
+select * from cat
+-----
+
+-----
+2017/09/13 19:43:03 
+insert into art (title,cat_id,content,pubtime) values ('测试标签','1','测试标签内容','1505302983')
+-----
+
+-----
+2017/09/13 19:43:03 
+insert into tag (art_id,tag) values (4,'') 
+-----
+
+-----
+2017/09/13 19:44:28 
+select * from cat
+-----
+
+-----
+2017/09/13 19:44:28 
+insert into art (title,cat_id,content,pubtime) values ('测试标签','1','测试标签内容','1505303068')
+-----
+
+-----
+2017/09/13 19:44:28 
+insert into tag (art_id,tag) values (5,'') 
+-----
+
+-----
+2017/09/13 19:44:30 
+select * from cat
+-----
+
+-----
+2017/09/13 19:46:53 
+select * from cat
+-----
+
+-----
+2017/09/13 19:46:55 
+select * from cat
+-----
+
+-----
+2017/09/13 19:46:55 
+insert into art (title,cat_id,content,pubtime) values ('测试标签','1','测试标签内容','1505303215')
+-----
+
+-----
+2017/09/13 19:46:55 
+insert into tag (art_id,tag) values (6,'linux') ,(6,'php') 
+-----
+
+-----
+2017/09/13 20:00:48 
+select * from cat
+-----
+
+-----
+2017/09/13 20:01:02 
+select * from cat
+-----
+
+-----
+2017/09/13 20:01:02 
+insert into art (title,cat_id,content,pubtime,arttag) values ('测试标签2222','15','dsadadadad','1505304062','php,mysql')
+-----
+
+-----
+2017/09/13 20:01:02 
+insert into tag (art_id,tag) values (7,'php') ,(7,'mysql') 
+-----
+
+-----
+2017/09/13 20:01:49 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/13 20:02:00 
+select * from art where art_id=7
+-----
+
+-----
+2017/09/13 20:02:00 
+select * from cat
+-----
+
+-----
+2017/09/13 20:02:00 
+select title,content,cat_id,arttag from art where art_id=7
+-----
+
+-----
+2017/09/13 20:02:14 
+select * from art where art_id=7
+-----
+
+-----
+2017/09/13 20:02:14 
+select * from cat
+-----
+
+-----
+2017/09/13 20:02:14 
+select title,content,cat_id,arttag from art where art_id=7
+-----
+
+-----
+2017/09/13 20:08:59 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 20:08:59 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 20:08:59 
+select * from comment where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 20:09:00 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 20:09:00 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 20:09:00 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 20:09:09 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 20:09:09 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 20:09:09 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 20:09:17 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 20:09:17 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 20:09:17 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 20:09:17 
+insert into comment (nick,email,content,pubtime,art_id) values ('xiaoyu','longyou1243@163.com','dadada','1505304557','1')
+-----
+
+-----
+2017/09/13 20:09:17 
+update art set comm=comm+1 where art_id=1
+-----
+
+-----
+2017/09/13 20:09:18 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 20:09:19 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 20:09:19 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 20:11:30 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 20:11:30 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 20:11:30 
+select * from comment where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 20:11:31 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 20:11:31 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 20:11:31 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 20:11:34 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 20:11:34 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 20:11:34 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 20:11:42 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 20:11:42 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 20:11:42 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 20:11:42 
+insert into comment (nick,email,content,pubtime,art_id) values ('xiaoyu','a','dsad','1505304702','1')
+-----
+
+-----
+2017/09/13 20:11:42 
+update art set comm=comm+1 where art_id=1
+-----
+
+-----
+2017/09/13 20:11:43 
+select * from art where art_id=1
+-----
+
+-----
+2017/09/13 20:11:43 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=1
+-----
+
+-----
+2017/09/13 20:11:43 
+select * from comment where art_id=1
+-----
+
+-----
+2017/09/13 20:38:05 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/13 20:48:50 
+select * from comment
+-----
+
+-----
+2017/09/13 20:49:50 
+select * from comment
+-----
+
+-----
+2017/09/13 20:49:51 
+select * from comment
+-----
+
+-----
+2017/09/13 20:49:57 
+select * from comment
+-----
+
+-----
+2017/09/13 20:50:02 
+select * from comment
+-----
+
+-----
+2017/09/13 20:50:12 
+select * from comment
+-----
+
+-----
+2017/09/13 20:50:26 
+select * from comment
+-----
+
+-----
+2017/09/13 20:50:40 
+select * from comment
+-----
+
+-----
+2017/09/13 20:51:00 
+select * from comment
+-----
+
+-----
+2017/09/13 20:51:22 
+select * from comment
+-----
+
+-----
+2017/09/13 20:51:27 
+select * from comment
+-----
+
+-----
+2017/09/13 20:51:45 
+select * from comment
+-----
+
+-----
+2017/09/13 20:59:43 
+select * from comment
+-----
+
+-----
+2017/09/13 20:59:45 
+select art_id from comment where comment_id = 6
+-----
+
+-----
+2017/09/13 20:59:45 
+delete from comment where comment_id = 6
+-----
+
+-----
+2017/09/13 20:59:45 
+update art set comm=comm-1 where art_id = 1
+-----
+
+-----
+2017/09/13 20:59:46 
+select * from comment
+-----
+
+-----
+2017/09/13 20:59:51 
+select art_id from comment where comment_id = 2
+-----
+
+-----
+2017/09/13 20:59:51 
+delete from comment where comment_id = 2
+-----
+
+-----
+2017/09/13 20:59:51 
+update art set comm=comm-1 where art_id = 1
+-----
+
+-----
+2017/09/13 20:59:52 
+select * from comment
+-----
+
+-----
+2017/09/13 20:59:58 
+select art_id from comment where comment_id = 5
+-----
+
+-----
+2017/09/13 20:59:58 
+delete from comment where comment_id = 5
+-----
+
+-----
+2017/09/13 20:59:58 
+update art set comm=comm-1 where art_id = 1
+-----
+
+-----
+2017/09/13 20:59:59 
+select * from comment
+-----
+
+-----
+2017/09/13 21:00:01 
+select art_id from comment where comment_id = 4
+-----
+
+-----
+2017/09/13 21:00:01 
+delete from comment where comment_id = 4
+-----
+
+-----
+2017/09/13 21:00:01 
+update art set comm=comm-1 where art_id = 2
+BIGINT UNSIGNED value is out of range in '(`blog`.`art`.`comm` - 1)'
+-----
+
+-----
+2017/09/13 21:00:02 
+select * from comment
+-----
+
+-----
+2017/09/13 21:01:09 
+select art_id from comment where comment_id = 3
+-----
+
+-----
+2017/09/13 21:01:09 
+delete from comment where comment_id = 3
+-----
+
+-----
+2017/09/13 21:01:09 
+update art set comm=comm-1 where art_id = 1
+BIGINT UNSIGNED value is out of range in '(`blog`.`art`.`comm` - 1)'
+-----
+
+-----
+2017/09/13 21:01:10 
+select * from comment
+-----
+
+-----
+2017/09/13 21:01:12 
+select art_id from comment where comment_id = 1
+-----
+
+-----
+2017/09/13 21:01:12 
+delete from comment where comment_id = 1
+-----
+
+-----
+2017/09/13 21:01:12 
+update art set comm=comm-1 where art_id = 2
+BIGINT UNSIGNED value is out of range in '(`blog`.`art`.`comm` - 1)'
+-----
+
+-----
+2017/09/13 21:01:13 
+select * from comment
+-----
+
+-----
+2017/09/13 21:05:35 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 21:05:35 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 21:05:35 
+select * from comment where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 21:05:36 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:36 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:37 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:37 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:39 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:39 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:40 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:40 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:41 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:41 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:42 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:42 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:43 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:43 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:44 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:44 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:45 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:45 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:46 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:46 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:47 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:47 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:48 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:48 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:49 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:49 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:50 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:50 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:51 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:51 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:52 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:52 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:53 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:53 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:54 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:54 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:55 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:55 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:05:56 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:05:56 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:04 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:04 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:05 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:05 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:06 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:06 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:07 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:07 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:08 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:08 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:09 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:09 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:10 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:10 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:11 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:11 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:13 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:13 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:14 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:14 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:15 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:15 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:16 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:16 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:17 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:17 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:18 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:18 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:19 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:19 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:20 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:20 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:21 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:21 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:22 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:22 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:23 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:23 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:24 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:24 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:25 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:25 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:26 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:26 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:27 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:27 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:28 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:28 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:29 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:29 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:30 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:30 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:31 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:31 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:32 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:32 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:45 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:45 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:46 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:46 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:47 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:47 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:48 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:48 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:49 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:49 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:50 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:50 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:51 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:51 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:52 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:52 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:54 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:54 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:55 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:55 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:56 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:56 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:57 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:57 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:58 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:06:58 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:06:59 
+select * from cat
+-----
+
+-----
+2017/09/13 21:07:29 
+select * from cat
+-----
+
+-----
+2017/09/13 21:07:29 
+insert into art (title,cat_id,content,pubtime,arttag) values ('人生苦短','1','人生是一杯苦咖啡','1505308049','咖啡')
+-----
+
+-----
+2017/09/13 21:07:29 
+insert into tag (art_id,tag) values (8,'咖啡') 
+-----
+
+-----
+2017/09/13 21:07:29 
+update cat set num=num+1 where cat_id=1
+-----
+
+-----
+2017/09/13 21:09:44 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/13 21:09:51 
+select * from art where art_id=8
+-----
+
+-----
+2017/09/13 21:09:51 
+select * from cat
+-----
+
+-----
+2017/09/13 21:09:51 
+select title,content,cat_id,arttag from art where art_id=8
+-----
+
+-----
+2017/09/13 21:09:57 
+select * from art where art_id=8
+-----
+
+-----
+2017/09/13 21:09:57 
+delete from art where art_id=8
+-----
+
+-----
+2017/09/13 21:09:58 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/13 21:12:10 
+select * from cat
+-----
+
+-----
+2017/09/13 21:12:25 
+select * from cat
+-----
+
+-----
+2017/09/13 21:12:25 
+insert into art (title,cat_id,content,pubtime,arttag) values ('人生苦短','1','人生就像一杯苦咖啡','1505308345','咖啡')
+-----
+
+-----
+2017/09/13 21:12:25 
+insert into tag (art_id,tag) values (9,'咖啡') 
+-----
+
+-----
+2017/09/13 21:12:25 
+update cat set num=num+1 where cat_id=1
+-----
+
+-----
+2017/09/13 21:17:48 
+select * from cat
+-----
+
+-----
+2017/09/13 21:17:48 
+insert into art (title,cat_id,content,pubtime,arttag) values ('人生苦短','1','人生就像一杯苦咖啡','1505308668','咖啡')
+-----
+
+-----
+2017/09/13 21:17:48 
+insert into tag (art_id,tag) values (10,'咖啡') 
+-----
+
+-----
+2017/09/13 21:17:48 
+update cat set num=num+1 where cat_id=1
+-----
+
+-----
+2017/09/13 21:17:49 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/13 21:18:08 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/13 21:18:11 
+select * from cat
+-----
+
+-----
+2017/09/13 21:18:35 
+select * from cat
+-----
+
+-----
+2017/09/13 21:18:35 
+insert into art (title,cat_id,content,pubtime,arttag) values ('工作很难','2','工作很难','1505308715','难')
+-----
+
+-----
+2017/09/13 21:18:35 
+insert into tag (art_id,tag) values (11,'难') 
+-----
+
+-----
+2017/09/13 21:18:35 
+update cat set num=num+1 where cat_id=2
+-----
+
+-----
+2017/09/13 21:20:01 
+select * from cat
+-----
+
+-----
+2017/09/13 21:20:11 
+select * from cat
+-----
+
+-----
+2017/09/13 21:20:14 
+select * from cat
+-----
+
+-----
+2017/09/13 21:20:17 
+select * from cat
+-----
+
+-----
+2017/09/13 21:20:50 
+select * from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 21:20:50 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 21:20:50 
+select * from comment where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----
+
+-----
+2017/09/13 21:20:51 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:20:51 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:20:51 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:22:14 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:22:14 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=3
+-----
+
+-----
+2017/09/13 21:22:15 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:22:15 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:22:15 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:24:41 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:24:41 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:24:41 
+select art_id,title,content,pubtime,comm,catname,cat.num from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:27:07 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:27:07 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:27:07 
+select art_id,title,content,pubtime,comm,catname,cat.num from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:28:15 
+select cat_id,catname from cat
+-----
+
+-----
+2017/09/13 21:28:15 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:28:15 
+select art_id,title,content,pubtime,comm,catname,cat.num from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:30:27 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 21:30:27 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:30:27 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 21:30:39 
+select * from art where art_id=9
+-----
+
+-----
+2017/09/13 21:30:39 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=9
+-----
+
+-----
+2017/09/13 21:30:39 
+select * from comment where art_id=9
+-----
+
+-----
+2017/09/13 21:31:00 
+select * from art where art_id=9
+-----
+
+-----
+2017/09/13 21:31:00 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=9
+-----
+
+-----
+2017/09/13 21:31:00 
+select * from comment where art_id=9
+-----
+
+-----
+2017/09/13 21:31:00 
+insert into comment (nick,email,content,pubtime,art_id,ip) values ('xiaoyu','530881987@qq.com','人生很短','1505309460','9','2130706433')
+-----
+
+-----
+2017/09/13 21:31:00 
+update art set comm=comm+1 where art_id=9
+-----
+
+-----
+2017/09/13 21:31:01 
+select * from art where art_id=9
+-----
+
+-----
+2017/09/13 21:31:01 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=9
+-----
+
+-----
+2017/09/13 21:31:01 
+select * from comment where art_id=9
+-----
+
+-----
+2017/09/13 21:31:11 
+select * from art where art_id=9
+-----
+
+-----
+2017/09/13 21:31:11 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=9
+-----
+
+-----
+2017/09/13 21:31:11 
+select * from comment where art_id=9
+-----
+
+-----
+2017/09/13 21:31:41 
+select * from art where art_id=9
+-----
+
+-----
+2017/09/13 21:31:41 
+select title,content,pubtime,catname,comm from art inner join cat on art.cat_id=cat.cat_id where art_id=9
+-----
+
+-----
+2017/09/13 21:31:41 
+select * from comment where art_id=9
+-----
+
+-----
+2017/09/13 21:32:08 
+select * from comment
+-----
+
+-----
+2017/09/13 21:56:18 
+select * from comment
+-----
+
+-----
+2017/09/13 22:05:01 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:05:01 
+select count(*) from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:05:01 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:31:50 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:31:50 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:31:50 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:31:50 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:32:05 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:32:05 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:32:05 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:32:05 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:32:48 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:32:48 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:32:48 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:32:48 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:33:03 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:33:03 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:33:03 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:33:03 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:33:05 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:33:05 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:33:05 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:33:05 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1
+-----
+
+-----
+2017/09/13 22:41:28 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:28 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:28 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:28 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 19,1
+-----
+
+-----
+2017/09/13 22:41:31 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:31 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:31 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:31 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:41:33 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:33 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:33 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:33 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:41:36 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:36 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:36 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:36 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 2,1
+-----
+
+-----
+2017/09/13 22:41:42 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:42 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:42 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:42 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:41:45 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:45 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:45 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:45 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:41:47 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:47 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:47 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:47 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:41:55 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:55 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:55 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:55 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:41:58 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:41:58 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:58 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:41:58 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 2,1
+-----
+
+-----
+2017/09/13 22:42:00 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:00 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:00 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:00 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:42:02 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:02 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:02 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:02 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:04 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:04 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:04 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:04 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:42:06 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:06 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:06 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:06 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 2,1
+-----
+
+-----
+2017/09/13 22:42:09 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:09 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:09 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:09 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:11 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:11 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:11 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:42:11 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:42:17 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:17 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:17 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:17 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:19 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:19 
+select count(*) from art where 1 and art.cat_id=2
+-----
+
+-----
+2017/09/13 22:42:19 
+select count(*) from art where 1 and art.cat_id=2
+-----
+
+-----
+2017/09/13 22:42:19 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=2 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:24 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:24 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:24 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:24 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:26 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:26 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:26 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:26 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:42:30 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:30 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:30 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:30 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:33 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:33 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:33 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:33 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:42:35 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:35 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:35 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:35 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:42:39 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:42:39 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:39 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:42:39 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:54:08 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:08 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:54:08 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:54:08 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:54:10 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:10 
+select count(*) from art where 1 and art.cat_id=2
+-----
+
+-----
+2017/09/13 22:54:10 
+select count(*) from art where 1 and art.cat_id=2
+-----
+
+-----
+2017/09/13 22:54:10 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=2 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:54:17 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:17 
+select count(*) from art where 1 and art.cat_id=3
+-----
+
+-----
+2017/09/13 22:54:17 
+select count(*) from art where 1 and art.cat_id=3
+-----
+
+-----
+2017/09/13 22:54:18 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:18 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:18 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:18 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:54:26 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:26 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:54:26 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:54:26 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:54:32 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:32 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:54:32 
+select count(*) from art where 1 and art.cat_id=1
+-----
+
+-----
+2017/09/13 22:54:32 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:54:34 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:34 
+select count(*) from art where 1 and art.cat_id=2
+-----
+
+-----
+2017/09/13 22:54:34 
+select count(*) from art where 1 and art.cat_id=2
+-----
+
+-----
+2017/09/13 22:54:34 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 and art.cat_id=2 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:54:38 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:38 
+select count(*) from art where 1 and art.cat_id=3
+-----
+
+-----
+2017/09/13 22:54:38 
+select count(*) from art where 1 and art.cat_id=3
+-----
+
+-----
+2017/09/13 22:54:39 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:39 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:39 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:39 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/13 22:54:43 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:43 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:43 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:43 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 1,1
+-----
+
+-----
+2017/09/13 22:54:44 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 22:54:44 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:44 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 22:54:44 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 2,1
+-----
+
+-----
+2017/09/13 23:46:47 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/13 23:46:47 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 23:46:48 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/13 23:46:48 
+select art_id,title,content,pubtime,comm,catname from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 2,1
+-----
+

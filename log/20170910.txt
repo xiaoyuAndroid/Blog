@@ -1,0 +1,16 @@
+-----
+2017/09/10 22:34:53 
+select count(*) from cat where catname='xiaoyu'
+-----
+
+-----
+2017/09/10 22:35:11 
+select count(*) from cat where catname='xiaoyu'
+-----
+
+-----
+2017/09/10 22:37:33 
+select count(*) from cat where catname='xiaoyu''
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''xiaoyu''' at line 1
+-----
+

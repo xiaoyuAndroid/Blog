@@ -1,0 +1,110 @@
+-----
+2017/09/16 15:44:44 
+select cat_id,catname,num from cat
+-----
+
+-----
+2017/09/16 15:44:44 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/16 15:44:44 
+select count(*) from art where 1
+-----
+
+-----
+2017/09/16 15:44:44 
+select art_id,title,content,pubtime,comm,catname,thumb from art inner join cat on art.cat_id=cat.cat_id where 1 order by art_id desc limit 0,1
+-----
+
+-----
+2017/09/16 15:44:49 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:46:21 
+select * from user where name='1'
+-----
+
+-----
+2017/09/16 15:46:29 
+select * from user where name='admin'
+-----
+
+-----
+2017/09/16 15:47:54 
+select * from user where name='admin'
+-----
+
+-----
+2017/09/16 15:47:59 
+select * from user where name='admin'
+-----
+
+-----
+2017/09/16 15:48:07 
+select * from user where name='admin'
+-----
+
+-----
+2017/09/16 15:48:23 
+select * from user where name='admin'
+-----
+
+-----
+2017/09/16 15:48:24 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:48:38 
+select * from user where name='admin'
+-----
+
+-----
+2017/09/16 15:48:39 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:50:56 
+select * from user where name='admin' and password='admin'
+-----
+
+-----
+2017/09/16 15:50:57 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:53:09 
+select * from user where name='admin' and password='admin'
+-----
+
+-----
+2017/09/16 15:53:10 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:53:21 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:54:25 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
+-----
+2017/09/16 15:54:31 
+select * from user where name='admin' and password='admin'
+-----
+
+-----
+2017/09/16 15:54:32 
+select art_id,title,pubtime,comm,catname from art left join cat on art.cat_id=cat.cat_id
+-----
+
